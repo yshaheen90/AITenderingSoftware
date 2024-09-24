@@ -1,0 +1,1 @@
+export { IconNavsChattext } from "./IconNavsChattext";

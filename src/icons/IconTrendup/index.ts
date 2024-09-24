@@ -1,0 +1,1 @@
+export { IconTrendup } from "./IconTrendup";

@@ -1,0 +1,1 @@
+export { HomepageTendai } from "./HomepageTendai";

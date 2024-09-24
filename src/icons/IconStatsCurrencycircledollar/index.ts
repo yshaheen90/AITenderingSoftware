@@ -1,0 +1,1 @@
+export { IconStatsCurrencycircledollar } from "./IconStatsCurrencycircledollar";

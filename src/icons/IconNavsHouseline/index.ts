@@ -1,0 +1,1 @@
+export { IconNavsHouseline } from "./IconNavsHouseline";

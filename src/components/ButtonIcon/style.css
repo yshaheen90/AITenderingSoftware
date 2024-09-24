@@ -1,0 +1,138 @@
+.button-icon {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 8px;
+  position: relative;
+}
+
+.button-icon .badge {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 20px;
+  justify-content: center;
+  padding: 4px;
+  position: absolute;
+  width: 20px;
+}
+
+.button-icon .div-red {
+  background-color: var(--red);
+  border-radius: 14px;
+  height: 8px;
+  position: relative;
+  width: 8px;
+}
+
+.button-icon .icon-chatteardropdots-5 {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.button-icon .icon-chatteardropdots-9 {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.button-icon.size-1-large {
+  border-radius: 8px;
+  padding: 9px;
+}
+
+.button-icon.type-secondary {
+  background-color: var(--white);
+}
+
+.button-icon.type-default {
+  background-color: var(--lime-00);
+}
+
+.button-icon.type-gost {
+  border: 1px solid;
+  border-color: var(--gray-line);
+}
+
+.button-icon.type-default.size-1-small {
+  border-radius: 6px;
+  padding: 6px;
+}
+
+.button-icon.type-gost.size-1-medium {
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.button-icon.size-1-small.type-secondary {
+  border-radius: 6px;
+  padding: 6px;
+}
+
+.button-icon.type-transparent.size-1-small {
+  padding: 3px;
+}
+
+.button-icon.size-1-medium.type-secondary {
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.button-icon.type-transparent.size-1-medium {
+  padding: 6px;
+}
+
+.button-icon.size-1-x-small.type-default {
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.button-icon.type-default.size-1-medium {
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.button-icon.size-1-small.type-gost {
+  border-radius: 6px;
+  padding: 6px;
+}
+
+.button-icon.size-1-x-small.type-transparent {
+  padding: 3px;
+}
+
+.button-icon.type-transparent .badge {
+  left: 15px;
+  top: 1px;
+}
+
+.button-icon.type-default.size-1-large .badge {
+  left: 16px;
+  top: 4px;
+}
+
+.button-icon.type-gost.size-1-medium .badge {
+  left: 14px;
+  top: 2px;
+}
+
+.button-icon.size-1-large.type-secondary .badge {
+  left: 16px;
+  top: 4px;
+}
+
+.button-icon.size-1-medium.type-secondary .badge {
+  left: 14px;
+  top: 2px;
+}
+
+.button-icon.type-gost.size-1-large .badge {
+  left: 16px;
+  top: 4px;
+}
+
+.button-icon.type-default.size-1-medium .badge {
+  left: 14px;
+  top: 2px;
+}

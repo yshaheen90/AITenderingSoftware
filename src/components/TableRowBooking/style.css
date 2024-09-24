@@ -1,0 +1,166 @@
+.table-row-booking {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 838px;
+}
+
+.table-row-booking .cell-ID {
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+  width: 70px;
+}
+
+.table-row-booking .title {
+  color: var(--gray-10);
+  font-family: var(--xxsmall-regular-10px-lato-font-family);
+  font-size: var(--xxsmall-regular-10px-lato-font-size);
+  font-style: var(--xxsmall-regular-10px-lato-font-style);
+  font-weight: var(--xxsmall-regular-10px-lato-font-weight);
+  letter-spacing: var(--xxsmall-regular-10px-lato-letter-spacing);
+  line-height: var(--xxsmall-regular-10px-lato-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.table-row-booking .icon-sort {
+  height: 14px !important;
+  position: relative !important;
+  width: 14px !important;
+}
+
+.table-row-booking .text-3 {
+  color: var(--black);
+  font-family: var(--xsmall-alt-11px-lato-font-family);
+  font-size: var(--xsmall-alt-11px-lato-font-size);
+  font-style: var(--xsmall-alt-11px-lato-font-style);
+  font-weight: var(--xsmall-alt-11px-lato-font-weight);
+  letter-spacing: var(--xsmall-alt-11px-lato-letter-spacing);
+  line-height: var(--xsmall-alt-11px-lato-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.table-row-booking .cell-guest {
+  display: flex;
+  position: relative;
+  width: 112px;
+}
+
+.table-row-booking .cell-rtype {
+  display: flex;
+  position: relative;
+  width: 70px;
+}
+
+.table-row-booking .badge-room-type-instance {
+  flex: 0 0 auto !important;
+}
+
+.table-row-booking .cell-rnumber {
+  display: flex;
+  position: relative;
+  width: 76px;
+}
+
+.table-row-booking .cell-duration {
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+  width: 60px;
+}
+
+.table-row-booking .cell-in-out {
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+  width: 174px;
+}
+
+.table-row-booking .text-4 {
+  color: var(--gray-10);
+  font-family: var(--xsmall-alt-11px-lato-font-family);
+  font-size: var(--xsmall-alt-11px-lato-font-size);
+  font-style: var(--xsmall-alt-11px-lato-font-style);
+  font-weight: var(--xsmall-alt-11px-lato-font-weight);
+  letter-spacing: var(--xsmall-alt-11px-lato-letter-spacing);
+  line-height: var(--xsmall-alt-11px-lato-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.table-row-booking .cell-status {
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+  width: 70px;
+}
+
+.table-row-booking.body {
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--gray-line);
+  padding: 18px 16px 18px 20px;
+}
+
+.table-row-booking.head {
+  align-items: flex-start;
+  background-color: var(--blue-subtle);
+  border-radius: 8px;
+  padding: 16px 16px 16px 20px;
+}
+
+.table-row-booking.body .cell-ID {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.table-row-booking.body .cell-guest {
+  align-items: center;
+  gap: 8px;
+}
+
+.table-row-booking.head .cell-guest {
+  align-items: flex-start;
+}
+
+.table-row-booking.body .cell-rtype {
+  align-items: center;
+  gap: 10px;
+}
+
+.table-row-booking.head .cell-rtype {
+  align-items: flex-start;
+}
+
+.table-row-booking.body .cell-rnumber {
+  align-items: center;
+  gap: 10px;
+}
+
+.table-row-booking.head .cell-rnumber {
+  align-items: flex-start;
+}
+
+.table-row-booking.body .cell-duration {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.table-row-booking.body .cell-in-out {
+  gap: 8px;
+}
+
+.table-row-booking.body .cell-status {
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}

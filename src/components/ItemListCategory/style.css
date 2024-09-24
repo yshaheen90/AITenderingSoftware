@@ -1,0 +1,57 @@
+.item-list-category {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+  position: relative;
+  width: 191px;
+}
+
+.item-list-category .category-2 {
+  color: var(--gray-10);
+  font-family: var(--xsmall-regular-12px-lato-font-family);
+  font-size: var(--xsmall-regular-12px-lato-font-size);
+  font-style: var(--xsmall-regular-12px-lato-font-style);
+  font-weight: var(--xsmall-regular-12px-lato-font-weight);
+  letter-spacing: var(--xsmall-regular-12px-lato-letter-spacing);
+  line-height: var(--xsmall-regular-12px-lato-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: 80px;
+}
+
+.item-list-category .bar-chart {
+  align-items: flex-start;
+  background-color: var(--lime-dark);
+  border-radius: 4px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 10px;
+  height: 6px;
+  overflow: hidden;
+  padding: 0px 12px 0px 0px;
+  position: relative;
+}
+
+.item-list-category .bar {
+  align-self: stretch;
+  background-color: var(--lime-00);
+  height: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.item-list-category .score {
+  color: var(--black);
+  font-family: var(--xsmall-medium-12px-lato-font-family);
+  font-size: var(--xsmall-medium-12px-lato-font-size);
+  font-style: var(--xsmall-medium-12px-lato-font-style);
+  font-weight: var(--xsmall-medium-12px-lato-font-weight);
+  letter-spacing: var(--xsmall-medium-12px-lato-letter-spacing);
+  line-height: var(--xsmall-medium-12px-lato-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+  width: 18px;
+}

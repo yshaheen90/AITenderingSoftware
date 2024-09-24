@@ -1,0 +1,163 @@
+.card-statistic {
+  align-items: flex-start;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 16px;
+  position: relative;
+  width: 188px;
+}
+
+.card-statistic .body-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.card-statistic .main-info {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  position: relative;
+  width: 118px;
+}
+
+.card-statistic .category {
+  color: var(--gray-10);
+  font-family: var(--xsmall-alt-11px-lato-font-family);
+  font-size: var(--xsmall-alt-11px-lato-font-size);
+  font-style: var(--xsmall-alt-11px-lato-font-style);
+  font-weight: var(--xsmall-alt-11px-lato-font-weight);
+  letter-spacing: var(--xsmall-alt-11px-lato-letter-spacing);
+  line-height: var(--xsmall-alt-11px-lato-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.card-statistic .number {
+  color: var(--black);
+  font-family: var(--title-1-bold-22px-lato-font-family);
+  font-size: var(--title-1-bold-22px-lato-font-size);
+  font-style: var(--title-1-bold-22px-lato-font-style);
+  font-weight: var(--title-1-bold-22px-lato-font-weight);
+  letter-spacing: var(--title-1-bold-22px-lato-letter-spacing);
+  line-height: var(--title-1-bold-22px-lato-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.card-statistic .icon-stats-wrapper {
+  align-items: flex-start;
+  border-radius: 6px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 8px;
+  position: relative;
+}
+
+.card-statistic .head-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 6px;
+  position: relative;
+  width: 100%;
+}
+
+.card-statistic .percentage {
+  align-items: flex-end;
+  border-radius: 8px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 3px;
+  padding: 1px 6px;
+  position: relative;
+}
+
+.card-statistic .number-2 {
+  font-family: var(--xxsmall-regular-10px-lato-font-family);
+  font-size: var(--xxsmall-regular-10px-lato-font-size);
+  font-style: var(--xxsmall-regular-10px-lato-font-style);
+  font-weight: var(--xxsmall-regular-10px-lato-font-weight);
+  letter-spacing: var(--xxsmall-regular-10px-lato-letter-spacing);
+  line-height: var(--xxsmall-regular-10px-lato-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.card-statistic .detail {
+  font-family: var(--xxsmall-regular-10px-lato-font-family);
+  font-size: var(--xxsmall-regular-10px-lato-font-size);
+  font-style: var(--xxsmall-regular-10px-lato-font-style);
+  font-weight: var(--xxsmall-regular-10px-lato-font-weight);
+  letter-spacing: var(--xxsmall-regular-10px-lato-letter-spacing);
+  line-height: var(--xxsmall-regular-10px-lato-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.card-statistic .icon-stats {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.card-statistic .icon-trendup {
+  height: 14px !important;
+  position: relative !important;
+  width: 14px !important;
+}
+
+.card-statistic.type-1-special {
+  background-color: var(--blue-00);
+}
+
+.card-statistic.type-1-default {
+  background-color: var(--white);
+}
+
+.card-statistic.type-1-special .icon-stats-wrapper {
+  background-color: var(--blue-10);
+}
+
+.card-statistic.type-1-default .icon-stats-wrapper {
+  background-color: var(--blue-00);
+}
+
+.card-statistic.type-1-special .percentage {
+  background-color: var(--blue-10);
+}
+
+.card-statistic.type-1-default .percentage {
+  background-color: var(--lime-00);
+}
+
+.card-statistic.type-1-special .number-2 {
+  color: var(--gray-10);
+}
+
+.card-statistic.type-1-default .number-2 {
+  color: var(--black);
+}
+
+.card-statistic.type-1-special .detail {
+  color: var(--gray-10);
+}
+
+.card-statistic.type-1-default .detail {
+  color: #a3a3a3;
+}

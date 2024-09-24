@@ -1,0 +1,31 @@
+.badge-status-booking {
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  gap: 5px;
+  height: 18px;
+  padding: 2px 6px 3px;
+  position: relative;
+}
+
+.badge-status-booking .text-6 {
+  color: var(--black);
+  font-family: var(--xxsmall-regular-10px-lato-font-family);
+  font-size: var(--xxsmall-regular-10px-lato-font-size);
+  font-style: var(--xxsmall-regular-10px-lato-font-style);
+  font-weight: var(--xxsmall-regular-10px-lato-font-weight);
+  letter-spacing: var(--xxsmall-regular-10px-lato-letter-spacing);
+  line-height: var(--xxsmall-regular-10px-lato-line-height);
+  margin-top: -1.5px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.badge-status-booking.pending {
+  background-color: var(--blue-00);
+}
+
+.badge-status-booking.check-in {
+  background-color: var(--lime-00);
+}

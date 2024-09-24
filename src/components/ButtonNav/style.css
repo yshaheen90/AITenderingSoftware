@@ -1,0 +1,90 @@
+.button-nav {
+  align-items: center;
+  display: flex;
+  position: relative;
+  width: 177px;
+}
+
+.button-nav .text {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 0px 2px 0px 0px;
+  position: relative;
+}
+
+.button-nav .label {
+  color: var(--black);
+  font-family: var(--button-semibold-14px-lato-font-family);
+  font-size: var(--button-semibold-14px-lato-font-size);
+  font-style: var(--button-semibold-14px-lato-font-style);
+  font-weight: var(--button-semibold-14px-lato-font-weight);
+  letter-spacing: var(--button-semibold-14px-lato-letter-spacing);
+  line-height: var(--button-semibold-14px-lato-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button-nav .icon-navs {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.button-nav .label-wrapper {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 10px;
+  padding: 0px 2px 0px 0px;
+  position: relative;
+}
+
+.button-nav .text-wrapper {
+  font-family: var(--button-semibold-14px-lato-font-family);
+  font-size: var(--button-semibold-14px-lato-font-size);
+  font-style: var(--button-semibold-14px-lato-font-style);
+  font-weight: var(--button-semibold-14px-lato-font-weight);
+  letter-spacing: var(--button-semibold-14px-lato-letter-spacing);
+  line-height: var(--button-semibold-14px-lato-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button-nav.active-false {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.button-nav.active-true {
+  background-color: var(--lime-00);
+  border-radius: 8px;
+}
+
+.button-nav.level-1 {
+  gap: 12px;
+  height: 40px;
+  overflow: hidden;
+  padding: 10px 6px 10px 50px;
+}
+
+.button-nav.default {
+  gap: 8px;
+  padding: 10px 8px;
+}
+
+.button-nav.active-false .text-wrapper {
+  color: #a3a3a3;
+}
+
+.button-nav.active-true .text-wrapper {
+  color: var(--black);
+}

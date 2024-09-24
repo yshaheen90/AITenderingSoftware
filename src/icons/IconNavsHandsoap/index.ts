@@ -1,0 +1,1 @@
+export { IconNavsHandsoap } from "./IconNavsHandsoap";

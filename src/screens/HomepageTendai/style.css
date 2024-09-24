@@ -1,0 +1,785 @@
+.homepage-tendai {
+  align-items: flex-start;
+  background-color: #f8f8f8;
+  display: inline-flex;
+  min-height: 100vh;
+  position: relative;
+}
+
+.homepage-tendai .sidebar {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px 16px;
+  position: relative;
+  width: 192px;
+}
+
+.homepage-tendai .menu-nav {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.homepage-tendai .button-nav-instance {
+  align-self: stretch !important;
+  background-color: var(--blue-dark) !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.homepage-tendai .icon-instance-node {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.homepage-tendai .design-component-instance-node {
+  align-self: stretch !important;
+  background-color: #ffffff !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.homepage-tendai .button-nav-2 {
+  background-color: #ffffff !important;
+  display: inline-flex !important;
+  flex: 0 0 auto !important;
+  margin-right: -16px !important;
+  width: unset !important;
+}
+
+.homepage-tendai .button-nav-3 {
+  margin-right: -19px !important;
+}
+
+.homepage-tendai .button-nav-4 {
+  margin-right: -8px !important;
+}
+
+.homepage-tendai .button-nav-5 {
+  align-items: center;
+  align-self: stretch;
+  border-radius: 4px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  overflow: hidden;
+  padding: 10px 8px;
+  position: relative;
+  width: 100%;
+}
+
+.homepage-tendai .text-7 {
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+}
+
+.homepage-tendai .content {
+  align-items: flex-start;
+  background-color: #f8f8f8;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+  position: relative;
+}
+
+.homepage-tendai .head-4 {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 1200px;
+}
+
+.homepage-tendai .title-2 {
+  color: var(--black);
+  font-family: var(--display-4-bold-24px-lato-font-family);
+  font-size: var(--display-4-bold-24px-lato-font-size);
+  font-style: var(--display-4-bold-24px-lato-font-style);
+  font-weight: var(--display-4-bold-24px-lato-font-weight);
+  letter-spacing: var(--display-4-bold-24px-lato-letter-spacing);
+  line-height: var(--display-4-bold-24px-lato-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.homepage-tendai .right-section {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 20px;
+  position: relative;
+}
+
+.homepage-tendai .input-search-instance {
+  background-color: #ffffff !important;
+  width: 271px !important;
+}
+
+.homepage-tendai .section-user-profile {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 285px;
+}
+
+.homepage-tendai .user-profile {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  position: relative;
+}
+
+.homepage-tendai .avatar {
+  background-color: #bcd9ca;
+  border-radius: 32px;
+  height: 38px;
+  position: relative;
+  width: 38px;
+}
+
+.homepage-tendai .user-info {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 0px 1px;
+  position: relative;
+}
+
+.homepage-tendai .text-wrapper-2 {
+  color: var(--black);
+  font-family: var(--small-bold-14px-lato-font-family);
+  font-size: var(--small-bold-14px-lato-font-size);
+  font-style: var(--small-bold-14px-lato-font-style);
+  font-weight: var(--small-bold-14px-lato-font-weight);
+  letter-spacing: var(--small-bold-14px-lato-letter-spacing);
+  line-height: var(--small-bold-14px-lato-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.homepage-tendai .role {
+  color: #6e6e6e;
+  font-family: var(--xsmall-alt-11px-lato-font-family);
+  font-size: var(--xsmall-alt-11px-lato-font-size);
+  font-style: var(--xsmall-alt-11px-lato-font-style);
+  font-weight: var(--xsmall-alt-11px-lato-font-weight);
+  letter-spacing: var(--xsmall-alt-11px-lato-letter-spacing);
+  line-height: var(--xsmall-alt-11px-lato-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.homepage-tendai .div-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+}
+
+.homepage-tendai .icon-gearsix-wrapper {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  padding: 8px;
+  position: relative;
+}
+
+.homepage-tendai .button-icon-2 {
+  background-color: #ffffff !important;
+  flex: 0 0 auto !important;
+}
+
+.homepage-tendai .button-icon-3 {
+  background-color: #fc4242 !important;
+}
+
+.homepage-tendai .body-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 20px;
+  position: relative;
+}
+
+.homepage-tendai .body-main {
+  align-items: flex-start;
+  align-self: stretch;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.homepage-tendai .section-statistics {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 20px;
+  position: relative;
+  width: 895px;
+}
+
+.homepage-tendai .row {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 20px;
+  position: relative;
+}
+
+.homepage-tendai .card-statistic-instance {
+  background-color: #d7d7d7 !important;
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  width: unset !important;
+}
+
+.homepage-tendai .design-component-instance-node-2 {
+  color: #000000 !important;
+}
+
+.homepage-tendai .card-statistic-2 {
+  background-color: #ffffff !important;
+}
+
+.homepage-tendai .icon-instance-node-2 {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.homepage-tendai .icon-instance-node-3 {
+  height: 14px !important;
+  position: relative !important;
+  width: 14px !important;
+}
+
+.homepage-tendai .card-statistic-3 {
+  color: #000000 !important;
+  margin-right: -8px !important;
+}
+
+.homepage-tendai .widget-reservations {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border-radius: 12px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  position: relative;
+  width: 895px;
+}
+
+.homepage-tendai .header-section {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.homepage-tendai .div-title {
+  align-items: baseline;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+}
+
+.homepage-tendai .title-3 {
+  color: var(--black);
+  font-family: var(--title-4-medium-16px-lato-font-family);
+  font-size: var(--title-4-medium-16px-lato-font-size);
+  font-style: var(--title-4-medium-16px-lato-font-style);
+  font-weight: var(--title-4-medium-16px-lato-font-weight);
+  letter-spacing: var(--title-4-medium-16px-lato-letter-spacing);
+  line-height: var(--title-4-medium-16px-lato-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.homepage-tendai .input-search-2 {
+  background-color: #f8f8f8 !important;
+}
+
+.homepage-tendai .button-pickers {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+}
+
+.homepage-tendai .design-component-instance-node-3 {
+  background-color: #bcd9ca !important;
+  flex: 0 0 auto !important;
+}
+
+.homepage-tendai .body-4 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.homepage-tendai .table-tender-list {
+  align-self: stretch !important;
+  background-color: #d7d7d7 !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.homepage-tendai .table-row-booking-list {
+  display: inline-flex !important;
+  flex: 0 0 auto !important;
+  width: unset !important;
+}
+
+.homepage-tendai .table-row-booking-instance {
+  color: #000000 !important;
+  text-align: center !important;
+}
+
+.homepage-tendai .table-tender-list-2 {
+  align-items: center;
+  align-self: stretch;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #e7e7e7;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  padding: 18px 16px 18px 20px;
+  position: relative;
+  width: 100%;
+}
+
+.homepage-tendai .cell-RFQ-reference {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  width: 70px;
+}
+
+.homepage-tendai .text-8 {
+  color: var(--black);
+  font-family: var(--xsmall-alt-11px-lato-font-family);
+  font-size: var(--xsmall-alt-11px-lato-font-size);
+  font-style: var(--xsmall-alt-11px-lato-font-style);
+  font-weight: var(--xsmall-alt-11px-lato-font-weight);
+  letter-spacing: var(--xsmall-alt-11px-lato-letter-spacing);
+  line-height: var(--xsmall-alt-11px-lato-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.homepage-tendai .cell-tender-name {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  position: relative;
+  width: 112px;
+}
+
+.homepage-tendai .p {
+  color: var(--black);
+  font-family: var(--xsmall-alt-11px-lato-font-family);
+  font-size: var(--xsmall-alt-11px-lato-font-size);
+  font-style: var(--xsmall-alt-11px-lato-font-style);
+  font-weight: var(--xsmall-alt-11px-lato-font-weight);
+  letter-spacing: var(--xsmall-alt-11px-lato-letter-spacing);
+  line-height: var(--xsmall-alt-11px-lato-line-height);
+  margin-right: -23px;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.homepage-tendai .badge-org-type {
+  background-color: #000000 !important;
+}
+
+.homepage-tendai .cell-date-published {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  width: 76px;
+}
+
+.homepage-tendai .cell-notes {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  width: 60px;
+}
+
+.homepage-tendai .text-9 {
+  color: var(--black);
+  font-family: var(--xsmall-alt-11px-lato-font-family);
+  font-size: var(--xsmall-alt-11px-lato-font-size);
+  font-style: var(--xsmall-alt-11px-lato-font-style);
+  font-weight: var(--xsmall-alt-11px-lato-font-weight);
+  letter-spacing: var(--xsmall-alt-11px-lato-letter-spacing);
+  line-height: var(--xsmall-alt-11px-lato-line-height);
+  margin-right: -9px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.homepage-tendai .cell-bid-deadline {
+  align-items: flex-start;
+  display: flex;
+  gap: 8px;
+  position: relative;
+  width: 174px;
+}
+
+.homepage-tendai .text-10 {
+  color: #6e6e6e;
+  font-family: var(--xsmall-alt-11px-lato-font-family);
+  font-size: var(--xsmall-alt-11px-lato-font-size);
+  font-style: var(--xsmall-alt-11px-lato-font-style);
+  font-weight: var(--xsmall-alt-11px-lato-font-weight);
+  letter-spacing: var(--xsmall-alt-11px-lato-letter-spacing);
+  line-height: var(--xsmall-alt-11px-lato-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.homepage-tendai .cell-RFQ-status {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+  width: 70px;
+}
+
+.homepage-tendai .badge-status-booking-instance {
+  background-color: #bcd9ca !important;
+  margin-right: -16px !important;
+}
+
+.homepage-tendai .cell-RFQ-reference-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.homepage-tendai .text-11 {
+  color: var(--black);
+  font-family: var(--xsmall-alt-11px-lato-font-family);
+  font-size: var(--xsmall-alt-11px-lato-font-size);
+  font-style: var(--xsmall-alt-11px-lato-font-style);
+  font-weight: var(--xsmall-alt-11px-lato-font-weight);
+  letter-spacing: var(--xsmall-alt-11px-lato-letter-spacing);
+  line-height: var(--xsmall-alt-11px-lato-line-height);
+  margin-right: -1px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 864px;
+}
+
+.homepage-tendai .body-side {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.homepage-tendai .div-3 {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border-radius: 12px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  position: relative;
+  width: 285px;
+}
+
+.homepage-tendai .right-section-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  margin-left: -119px;
+  position: relative;
+}
+
+.homepage-tendai .button-pickers-2 {
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.homepage-tendai .icon-dotsthree-4 {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.homepage-tendai .button-more {
+  flex: 0 0 auto !important;
+}
+
+.homepage-tendai .body-5 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.homepage-tendai .div-4 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  position: relative;
+  width: 100%;
+}
+
+.homepage-tendai .rating {
+  align-items: baseline;
+  align-self: stretch;
+  background-color: #d5f6e5;
+  border-radius: 6px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: flex-end;
+  padding: 6px 8px;
+  position: relative;
+}
+
+.homepage-tendai .number-3 {
+  color: var(--black);
+  font-family: var(--display-4-bold-24px-lato-font-family);
+  font-size: var(--display-4-bold-24px-lato-font-size);
+  font-style: var(--display-4-bold-24px-lato-font-style);
+  font-weight: var(--display-4-bold-24px-lato-font-weight);
+  letter-spacing: var(--display-4-bold-24px-lato-letter-spacing);
+  line-height: var(--display-4-bold-24px-lato-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.homepage-tendai .category-3 {
+  color: #6e6e6e;
+  font-family: var(--xsmall-regular-12px-lato-font-family);
+  font-size: var(--xsmall-regular-12px-lato-font-size);
+  font-style: var(--xsmall-regular-12px-lato-font-style);
+  font-weight: var(--xsmall-regular-12px-lato-font-weight);
+  letter-spacing: var(--xsmall-regular-12px-lato-letter-spacing);
+  line-height: var(--xsmall-regular-12px-lato-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.homepage-tendai .number-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.homepage-tendai .performance-category {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0px 0px 4px 1px;
+  position: relative;
+  width: 100%;
+}
+
+.homepage-tendai .design-component-instance-node-4 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.homepage-tendai .design-component-instance-node-5 {
+  color: #6e6e6e !important;
+}
+
+.homepage-tendai .item-list-category-rating {
+  background-color: #d7d7d7 !important;
+  padding: 0px 14.76px 0px 0px !important;
+}
+
+.homepage-tendai .design-component-instance-node-6 {
+  background-color: #bcd9ca !important;
+}
+
+.homepage-tendai .item-list-category-instance {
+  margin-top: unset !important;
+}
+
+.homepage-tendai .item-list-category-rating-instance {
+  background-color: #d7d7d7 !important;
+  padding: 0px 7.38px 0px 0px !important;
+}
+
+.homepage-tendai .item-list-category-2 {
+  background-color: #d7d7d7 !important;
+  padding: 0px 9.84px 0px 0px !important;
+}
+
+.homepage-tendai .item-list-category-3 {
+  background-color: #d7d7d7 !important;
+  padding: 0px 4.92px 0px 0px !important;
+}
+
+.homepage-tendai .item-list-category-4 {
+  background-color: #d7d7d7 !important;
+  padding: 0px 12.3px 0px 0px !important;
+}
+
+.homepage-tendai .button-more-2 {
+  background-color: #d7d7d7 !important;
+  flex: 0 0 auto !important;
+}
+
+.homepage-tendai .icon-plus {
+  height: 18px !important;
+  position: relative !important;
+  width: 18px !important;
+}
+
+.homepage-tendai .item-list-tasks-instance {
+  background-color: #ff9595 !important;
+  border-color: #e7e7e7 !important;
+}
+
+.homepage-tendai .item-list-tasks-2 {
+  background-color: #8ad97e !important;
+  border-color: #ccd97e !important;
+}
+
+.homepage-tendai .item-list-tasks-3 {
+  background-color: #f8f8f8 !important;
+  border-color: #e7e7e7 !important;
+}
+
+.homepage-tendai .legal-information {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 24px;
+  position: relative;
+}
+
+.homepage-tendai .text-wrapper-3 {
+  color: #6e6e6e;
+  font-family: var(--xsmall-semibold-12px-lato-font-family);
+  font-size: var(--xsmall-semibold-12px-lato-font-size);
+  font-style: var(--xsmall-semibold-12px-lato-font-style);
+  font-weight: var(--xsmall-semibold-12px-lato-font-weight);
+  letter-spacing: var(--xsmall-semibold-12px-lato-letter-spacing);
+  line-height: var(--xsmall-semibold-12px-lato-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.homepage-tendai .links {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  position: relative;
+}
+
+.homepage-tendai .text-wrapper-4 {
+  color: #a3a3a3;
+  font-family: var(--xsmall-regular-12px-lato-font-family);
+  font-size: var(--xsmall-regular-12px-lato-font-size);
+  font-style: var(--xsmall-regular-12px-lato-font-style);
+  font-weight: var(--xsmall-regular-12px-lato-font-weight);
+  letter-spacing: var(--xsmall-regular-12px-lato-letter-spacing);
+  line-height: var(--xsmall-regular-12px-lato-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.homepage-tendai .social-media {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  position: relative;
+}

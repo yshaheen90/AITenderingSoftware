@@ -1,0 +1,116 @@
+.input-search {
+  align-items: center;
+  background-color: var(--gray-bg);
+  display: flex;
+  position: relative;
+}
+
+.input-search .icon {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 2px 0px;
+  position: relative;
+}
+
+.input-search .class {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.input-search .class-2 {
+  height: 14px !important;
+  position: relative !important;
+  width: 14px !important;
+}
+
+.input-search .class-3 {
+  height: 18px !important;
+  position: relative !important;
+  width: 18px !important;
+}
+
+.input-search .div-wrapper {
+  align-items: center;
+  gap: 10px;
+  padding: 0px 2px;
+  position: relative;
+}
+
+.input-search .div {
+  color: #a3a3a3;
+  margin-top: -1px;
+  position: relative;
+}
+
+.input-search.large {
+  border-radius: 8px;
+  gap: 6px;
+  padding: 9px 13px;
+  width: 237px;
+}
+
+.input-search.medium {
+  border-radius: 8px;
+  gap: 6px;
+  padding: 8px 12px;
+  width: 237px;
+}
+
+.input-search.small {
+  border-radius: 6px;
+  gap: 4px;
+  padding: 6px 8px;
+  width: 223px;
+}
+
+.input-search.large .div-wrapper {
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.input-search.medium .div-wrapper {
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.input-search.small .div-wrapper {
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+
+.input-search.large .div {
+  flex: 1;
+  font-family: var(--small-regular-14px-lato-font-family);
+  font-size: var(--small-regular-14px-lato-font-size);
+  font-style: var(--small-regular-14px-lato-font-style);
+  font-weight: var(--small-regular-14px-lato-font-weight);
+  letter-spacing: var(--small-regular-14px-lato-letter-spacing);
+  line-height: var(--small-regular-14px-lato-line-height);
+}
+
+.input-search.medium .div {
+  flex: 1;
+  font-family: var(--xsmall-regular-12px-lato-font-family);
+  font-size: var(--xsmall-regular-12px-lato-font-size);
+  font-style: var(--xsmall-regular-12px-lato-font-style);
+  font-weight: var(--xsmall-regular-12px-lato-font-weight);
+  letter-spacing: var(--xsmall-regular-12px-lato-letter-spacing);
+  line-height: var(--xsmall-regular-12px-lato-line-height);
+}
+
+.input-search.small .div {
+  font-family: var(--xsmall-alt-11px-lato-font-family);
+  font-size: var(--xsmall-alt-11px-lato-font-size);
+  font-style: var(--xsmall-alt-11px-lato-font-style);
+  font-weight: var(--xsmall-alt-11px-lato-font-weight);
+  letter-spacing: var(--xsmall-alt-11px-lato-letter-spacing);
+  line-height: var(--xsmall-alt-11px-lato-line-height);
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}

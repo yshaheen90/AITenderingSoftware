@@ -1,0 +1,1 @@
+export { IconFadershorizontal } from "./IconFadershorizontal";

@@ -1,0 +1,1 @@
+export { BadgeStatusBooking } from "./BadgeStatusBooking";

@@ -1,0 +1,1 @@
+export { IconGearsix } from "./IconGearsix";

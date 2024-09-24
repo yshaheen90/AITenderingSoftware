@@ -1,0 +1,54 @@
+.badge-room-type {
+  align-items: center;
+  border-radius: 9px;
+  display: inline-flex;
+  gap: 5px;
+  height: 18px;
+  padding: 2px 8px 2px 6px;
+  position: relative;
+}
+
+.badge-room-type .color-category {
+  border-radius: 4px;
+  height: 6px;
+  position: relative;
+  width: 6px;
+}
+
+.badge-room-type .text-5 {
+  color: var(--black);
+  font-family: var(--xxsmall-regular-10px-lato-font-family);
+  font-size: var(--xxsmall-regular-10px-lato-font-size);
+  font-style: var(--xxsmall-regular-10px-lato-font-style);
+  font-weight: var(--xxsmall-regular-10px-lato-font-weight);
+  letter-spacing: var(--xxsmall-regular-10px-lato-letter-spacing);
+  line-height: var(--xxsmall-regular-10px-lato-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.badge-room-type.deluxe {
+  background-color: var(--lime-10);
+}
+
+.badge-room-type.suite {
+  background-color: var(--lime-00);
+}
+
+.badge-room-type.standard {
+  background-color: var(--blue-10);
+}
+
+.badge-room-type.deluxe .color-category {
+  background-color: var(--lime-00);
+}
+
+.badge-room-type.suite .color-category {
+  background-color: var(--lime-dark);
+}
+
+.badge-room-type.standard .color-category {
+  background-color: var(--blue-dark);
+}

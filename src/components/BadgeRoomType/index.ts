@@ -1,0 +1,1 @@
+export { BadgeRoomType } from "./BadgeRoomType";

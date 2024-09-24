@@ -1,0 +1,105 @@
+.item-list-tasks {
+  align-items: flex-start;
+  border-radius: 10px;
+  display: flex;
+  gap: 8px;
+  position: relative;
+  width: 217px;
+}
+
+.item-list-tasks .side-left {
+  align-items: center;
+  align-self: stretch;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px 0px 0px;
+  position: relative;
+}
+
+.item-list-tasks .check-box {
+  background-color: var(--gray-bg);
+  border: 1px solid;
+  border-color: var(--gray-line);
+  border-radius: 4px;
+  height: 18px;
+  position: relative;
+  width: 18px;
+}
+
+.item-list-tasks .vector {
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+  width: 1px;
+}
+
+.item-list-tasks .main {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 10px;
+  padding: 0px 0px 8px;
+  position: relative;
+}
+
+.item-list-tasks .info {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--blue-00);
+  border-radius: 6px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 4px 6px 12px 12px;
+  position: relative;
+  width: 100%;
+}
+
+.item-list-tasks .head-3 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.item-list-tasks .date {
+  color: var(--gray-10);
+  font-family: var(--xxsmall-regular-10px-lato-font-family);
+  font-size: var(--xxsmall-regular-10px-lato-font-size);
+  font-style: var(--xxsmall-regular-10px-lato-font-style);
+  font-weight: var(--xxsmall-regular-10px-lato-font-weight);
+  letter-spacing: var(--xxsmall-regular-10px-lato-letter-spacing);
+  line-height: var(--xxsmall-regular-10px-lato-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.item-list-tasks .button-icon-instance {
+  flex: 0 0 auto !important;
+}
+
+.item-list-tasks .task {
+  align-self: stretch;
+  color: var(--black);
+  font-family: var(--xsmall-alt-11px-lato-font-family);
+  font-size: var(--xsmall-alt-11px-lato-font-size);
+  font-style: var(--xsmall-alt-11px-lato-font-style);
+  font-weight: var(--xsmall-alt-11px-lato-font-weight);
+  letter-spacing: var(--xsmall-alt-11px-lato-letter-spacing);
+  line-height: var(--xsmall-alt-11px-lato-line-height);
+  position: relative;
+}
+
+.item-list-tasks .icon-dotsthree {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
